@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 #Cargamos el modelo
 import pickle
 filename = 'modelo-reg.pkl'
-modelTree,modelKnn, modelNN, modelSVM, labelencoder, variables,min_max_scaler = pickle.load(open(filename, 'rb'))
+modelTree,modelKnn, modelNN,min_max_scaler variables = pickle.load(open(filename, 'rb'))
 
 #Cargamos los datos futuros
 #data = pd.read_csv("videojuegos-datosFuturos.csv")
